@@ -113,9 +113,18 @@ ul {
 /***** Closing Section *****/
 
 .closingContainer {
-	width: 1300px;
+	width: 1500px;
 	height: 575px;
 	border: 2px solid black;
 	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #083451;
+}
+
+.footerImage {
+	width: 330px;
+	height: 330px;
+	float: left;
 }
 /*Id Selectors*/
