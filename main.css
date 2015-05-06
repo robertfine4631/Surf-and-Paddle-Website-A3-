@@ -32,7 +32,7 @@ ul {
 /****** Left Column *****/
 .leftcontent {
 	width: 842px;
-	height: 1185px;
+	height: 1400px;
 	background-color: gray;
 	border: 2px solid black;
 	float: left;
@@ -72,6 +72,8 @@ ul {
 	height: 30px;
 	background-color:blue;
 	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .leftColumnButtonTwo {
@@ -79,6 +81,8 @@ ul {
 	height: 30px;
 	background-color:blue;
 	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
 } 
 
 .leftColumnButtonThree {
@@ -86,6 +90,8 @@ ul {
 	height: 30px;
 	background-color:blue;
 	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /****** Right Column *****/
@@ -96,6 +102,7 @@ ul {
 	background-color: gray;
 	border: 2px solid black;
 	float: right;
+	padding-top: 50px;
 }
 
 .avatar {
@@ -103,5 +110,12 @@ ul {
 	width: 100px;
 	text-align: center;
 }
+/***** Closing Section *****/
 
+.closingContainer {
+	width: 1300px;
+	height: 575px;
+	border: 2px solid black;
+	clear: both;
+}
 /*Id Selectors*/
