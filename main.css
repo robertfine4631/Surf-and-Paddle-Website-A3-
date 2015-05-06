@@ -5,7 +5,7 @@ body {
 	width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 
@@ -19,37 +19,73 @@ body {
 	height: 520px;
 }
 
+.topNavBar {
+	width: auto;
+	height:25px;
+	border: 2px solid black;
+}
+
 /****** Left Column *****/
 .leftcontent {
-	width: 61.54%;
+	width: 775px;
+	height: 2000px;
 	background-color: gray;
 	border: 2px solid black;
 	float: left;
+	text-align: left;
+	margin-top: 1px;
+	margin-bottom: 1px;
+
 }
 
 .largeblue {
 	font-size: 60px;
-	font-family: Open-Sans;
+	font-family: Oswald;
 }
 
 .leftcontenttext {
-	font-family: Open-Sans;
+	font-family: Oswald;
 }
 
-.leftColumnButton {
+
+/* Left Column Buttons */
+
+/*.leftColumnButton {
+	height: 30px;
+	width:100px;
+	background-color: blue;
+	float: left;
+}*/
+
+.leftColumnButtonOne {
 	width: 160px;
 	height: 30px;
-	background-color: gray;
+	background-color:blue;
+	float:left;
+}
+
+.leftColumnButtonTwo {
+	width: 160px;
+	height: 30px;
+	background-color:blue;
+	float:left;
+} 
+
+.leftColumnButtonThree {
+	width: 120px;
+	height: 30px;
+	background-color:blue;
+	float:left;
 }
 
 /****** Right Column *****/
 
 .rightcontent {
-	width: 39.46%;
-	height: 400px;
+	width: 500px;
+	height: 600px;
 	background-color: gray;
 	border: 2px solid black;
-	float: left;
+	float: right;
 }
 
 /*Id Selectors*/
