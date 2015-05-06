@@ -5,13 +5,29 @@ body {
 	width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
 }
 
 
 
 /*Class Selectors*/
 
+/****** Left Column *****/
+.leftcontent {
+	width: 61.54%;
+	background-color: gray;
+}
 
+.largeblue {
+	font-size: 60px;
+	font-family: Open-Sans;
+}
 
+/****** Right Column *****/
+
+.rightcontent {
+	width: 39.46%;
+	background-color: gray;
+}
 
 /*Id Selectors*/
