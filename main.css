@@ -8,7 +8,9 @@ body {
 	/*overflow: hidden;*/
 }
 
-
+ul {
+	list-style: none;
+}
 
 /*Class Selectors*/
 
@@ -29,8 +31,8 @@ body {
 
 /****** Left Column *****/
 .leftcontent {
-	width: 775px;
-	height: 2000px;
+	width: 842px;
+	height: 1185px;
 	background-color: gray;
 	border: 2px solid black;
 	float: left;
@@ -49,6 +51,12 @@ body {
 	font-family: Oswald;
 }
 
+.whoa {
+	margin:0;
+	list-style: none;
+	border-left: 3px;
+	margin: 30px;
+}
 
 /* Left Column Buttons */
 
@@ -83,11 +91,17 @@ body {
 /****** Right Column *****/
 
 .rightcontent {
-	width: 500px;
-	height: 600px;
+	width: 420px;
+	height: 1185px;
 	background-color: gray;
 	border: 2px solid black;
 	float: right;
+}
+
+.avatar {
+	height: 100px;
+	width: 100px;
+	text-align: center;
 }
 
 /*Id Selectors*/
