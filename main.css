@@ -12,10 +12,19 @@ body {
 
 /*Class Selectors*/
 
+/* Header */
+
+.headerPicture {
+	width:1300px;
+	height: 520px;
+}
+
 /****** Left Column *****/
 .leftcontent {
 	width: 61.54%;
 	background-color: gray;
+	border: 2px solid black;
+	float: left;
 }
 
 .largeblue {
@@ -23,11 +32,24 @@ body {
 	font-family: Open-Sans;
 }
 
+.leftcontenttext {
+	font-family: Open-Sans;
+}
+
+.leftColumnButton {
+	width: 160px;
+	height: 30px;
+	background-color: gray;
+}
+
 /****** Right Column *****/
 
 .rightcontent {
 	width: 39.46%;
+	height: 400px;
 	background-color: gray;
+	border: 2px solid black;
+	float: left;
 }
 
 /*Id Selectors*/
