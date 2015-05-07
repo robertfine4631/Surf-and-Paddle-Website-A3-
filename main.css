@@ -49,6 +49,7 @@ ul {
 
 .leftcontenttext {
 	font-family: Oswald;
+	font-size: 23px;
 }
 
 .whoa {
@@ -71,34 +72,37 @@ ul {
 	width: 160px;
 	height: 30px;
 	background-color:blue;
-	float:left;
+	float:right;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 25px;
 }
 
 .leftColumnButtonTwo {
 	width: 160px;
 	height: 30px;
 	background-color:blue;
-	float:left;
+	float:right;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 25px;
 } 
 
 .leftColumnButtonThree {
 	width: 120px;
 	height: 30px;
 	background-color:blue;
-	float:left;
+	float:right;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 25px;
 }
 
 /****** Right Column *****/
 
 .rightcontent {
 	width: 420px;
-	height: 1185px;
+	height: 1184px;
 	background-color: gray;
 	border: 2px solid black;
 	float: right;
