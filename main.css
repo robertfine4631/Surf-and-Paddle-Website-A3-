@@ -18,12 +18,24 @@ body {
 
 .leftContent {
   width: 842px;
+  height: 1184px;
+  font-family: Oswald;
+  font-size: 1em;
   float:left;
+}
+
+blockquote {
+  font-family: Open Sans;
+  margin-left-color: #d6d6d6;
+  font-size: 1.5em;
 }
 
 .rightContent {
   width: 420px;
+  height: 1184px;
   float:left;
+  font-family: Oswald;
+  font-size: 1em;
 }
 
 .adContainer {
@@ -33,4 +45,11 @@ body {
 .adLink {
   text-align: right;
   text-decoration: none;
+}
+
+.bottom {
+  background-color: #083451;
+  height: 548px;
+  width: 1300px;
+  clear: both;
 }
