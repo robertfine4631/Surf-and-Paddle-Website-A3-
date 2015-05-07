@@ -1,151 +1,36 @@
-/*Global Element*/
 
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
 body {
-	height: 2104px;
-	width: 1300px;
-	margin-left: auto;
-	margin-right: auto;
-	/*overflow: hidden;*/
+  width:1300px;
+  height: 2104px;
 }
 
-ul {
-	list-style: none;
+
+.headerImage {
+  display: inline;
+}
+.logo {
+  display: inline;
 }
 
-/*Class Selectors*/
-
-/* Header */
-
-.headerPicture {
-	width:1300px;
-	height: 520px;
+.leftContent {
+  width: 842px;
+  float:left;
 }
 
-.topNavBar {
-	width: 1088px;
-	height: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	border: 2px solid black;
+.rightContent {
+  width: 420px;
+  float:left;
 }
 
-/****** Left Column *****/
-.leftcontent {
-	width: 842px;
-	height: auto;
-	background-color: gray;
-	border: 2px solid black;
-	float: left;
-	text-align: left;
-	margin-top: 1px;
-	margin-bottom: 1px;
-
+.adContainer {
+  text-align: center;
 }
 
-.largeblue {
-	font-size: 60px;
-	font-family: Oswald;
+.adLink {
+  text-align: right;
+  text-decoration: none;
 }
-
-.leftcontenttext {
-	font-family: Oswald;
-	font-size: 23px;
-}
-
-.whoa {
-	margin:0;
-	list-style: none;
-	border-left: 3px;
-	margin: 30px;
-}
-
-/* Left Column Buttons */
-
-/*.leftColumnButton {
-	height: 30px;
-	width:100px;
-	background-color: blue;
-	float: left;
-}*/
-
-.leftColumnButtonOne {
-	width: 160px;
-	height: 30px;
-	background-color:blue;
-	float:right;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 25px;
-}
-
-.leftColumnButtonTwo {
-	width: 160px;
-	height: 30px;
-	background-color:blue;
-	float:right;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 25px;
-} 
-
-.leftColumnButtonThree {
-	width: 120px;
-	height: 30px;
-	background-color:blue;
-	float:right;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 25px;
-}
-
-/****** Right Column *****/
-
-.rightcontent {
-	width: 420px;
-	height: 1184px;
-	background-color: gray;
-	border: 2px solid black;
-	float: right;
-	padding-top: 50px;
-}
-
-.avatar {
-	height: 100px;
-	width: 100px;
-	text-align: center;
-}
-/***** Closing Section *****/
-
-
-.closingContainer {
-	width: 1300px;
-	height: 575px;
-	border: 2px solid black;
-	clear: both;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #083451;
-}
-
-.FooterTextDiv {
-	background-color: #FFFFFF;
-	border: 2px solid black;
-}
-
-.FooterMainText {
-	font-size: 60px;
-	text-align: center;
-	color: #333333;
-	background-color: white;
-}
-.footerImage {
-	width: 325px;
-	height: 330px;
-	float: left;
-}
-
-.footerImage2:hover {
-	background: blue;
-	opacity: 50%;
-}
-/*Id Selectors*/
