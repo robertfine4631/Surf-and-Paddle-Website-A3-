@@ -143,4 +143,9 @@ ul {
 	height: 330px;
 	float: left;
 }
+
+.footerImage2:hover {
+	background: blue;
+	opacity: 50%;
+}
 /*Id Selectors*/
