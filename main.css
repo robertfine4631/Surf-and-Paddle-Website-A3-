@@ -105,8 +105,44 @@ blockquote {
   text-align: center;
 }
 
+.avatar1 {
+  text-align: left;
+  padding-left: 110px;
+  padding-top: 71px;
+  margin-bottom: 0px;
+}
+
+.avatarText {
+  font-size: 1.6em;
+  margin-left: -7px;
+  margin-top: -10px;
+  margin-bottom:0;
+  font-family: Open Sans;
+
+}
+
 .adlink2 {
   text-decoration: none;
+  margin-left: 57px;
+  margin-top: 0;
+  font-size: 1.49em;
+  font-family: Oswald;
+}
+
+.adlink3 {
+  text-decoration: none;
+  margin-left: 14px;
+  margin-top: 0;
+  font-size: 1.49em;
+  font-family: Oswald;
+}
+
+.adlink4 {
+  text-decoration: none;
+  margin-left: 14px;
+  margin-top: 0;
+  font-size: 1.49em;
+  font-family: Oswald;
 }
 
 .bottom {
