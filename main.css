@@ -6,6 +6,7 @@
 body {
   width:1300px;
   height: 2104px;
+  font-size: 62.5%;
 }
 
 /*Header*/
@@ -16,6 +17,22 @@ ul {
 
 .leftBar {
   float: left;
+  margin-left: 137px;
+  margin-top: 3px;
+}
+
+.leftBarOne {
+  margin-left: 5px;
+  margin-top: -5px;
+  float: left;
+  font-size: 1.7em;
+  font-family: Oswald;
+
+}
+
+.rightBar {
+  float: right;
+  padding: 0;
 }
 
 .backgroundImage {
@@ -27,20 +44,35 @@ ul {
 
 .headerText {
   font-family: Open Sans;
-  font-size: 5em;
+  font-size: 9.5em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  padding-top: 115px;
+  padding-bottom: 0;
+  font-weight: 300px;
+}
+.headerSubText {
+  font-family: Oswald;
+  font-size: 1.7em;
+  margin: -20px;
 }
 
-/*Left Content*/
 
+/*Left Content*/
+.leftHeader {
+  font-size: 6.3em;
+  text-align: left;
+  margin-top: 49px;
+  line-height: 72px;
+}
 .leftContent {
   width: 842px;
   height: 1184px;
   font-family: Oswald;
   font-size: 1em;
   float:left;
+  padding-left: 155px;
 }
 
 blockquote {
@@ -79,6 +111,9 @@ h5 {
   z-index: 1;
   background-color: white;
   vertical-align: top;
+  padding-top: 89px;
+  padding-bottom: 89px;
+  margin: 0;
 }
 
 /*Footer*/
