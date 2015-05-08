@@ -15,6 +15,10 @@ ul {
   display: inline;
 }
 
+li {
+  display: inline;
+}
+
 .leftBar {
   float: left;
   margin-left: 137px;
@@ -120,6 +124,9 @@ blockquote {
   font-family: Open Sans;
 
 }
+.avatarP {
+  margin-bottom: 0;
+}
 
 .adlink2 {
   text-decoration: none;
@@ -127,6 +134,7 @@ blockquote {
   margin-top: 0;
   font-size: 1.49em;
   font-family: Oswald;
+  line-height: 1;
 }
 
 .adlink3 {
@@ -135,6 +143,7 @@ blockquote {
   margin-top: 0;
   font-size: 1.49em;
   font-family: Oswald;
+  line-height: 1;
 }
 
 .adlink4 {
@@ -143,6 +152,7 @@ blockquote {
   margin-top: 0;
   font-size: 1.49em;
   font-family: Oswald;
+  line-height: 1;
 }
 
 .bottom {
