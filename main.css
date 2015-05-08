@@ -9,12 +9,6 @@ body {
 }
 
 
-.headerImage {
-  display: inline;
-}
-.logo {
-  display: inline;
-}
 
 .leftContent {
   width: 842px;
@@ -42,8 +36,8 @@ blockquote {
   text-align: center;
 }
 
-.adLink {
-  text-align: right;
+.adlink2 {
+  float:right;
   text-decoration: none;
 }
 
@@ -52,4 +46,17 @@ blockquote {
   height: 548px;
   width: 1300px;
   clear: both;
+}
+h5 {
+  font-size: 5em;
+  z-index: 1;
+  background-color: white;
+  vertical-align: top;
+}
+
+.imageFooter {
+  float: left;
+  width: 326px;
+  height: 330px;
+  scale: auto;
 }
