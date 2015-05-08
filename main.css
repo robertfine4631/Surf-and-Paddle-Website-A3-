@@ -105,9 +105,6 @@ blockquote {
   font-size: 1em;
 }
 
-.adContainer {
-  text-align: center;
-}
 
 .avatar1 {
   text-align: left;
@@ -154,6 +151,19 @@ blockquote {
   font-family: Oswald;
   line-height: 1;
 }
+
+/*ad*/
+.adContainer {
+  text-align: center;
+}
+
+.ad1 {
+  margin-top: 49px;
+  margin-bottom: 0;
+  padding-right: 110px;
+  padding-top: 0;
+}
+
 
 .bottom {
   background-color: #083451;
