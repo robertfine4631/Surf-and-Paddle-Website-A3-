@@ -195,21 +195,28 @@ blockquote {
 
 .bottom {
   background-color: #083451;
-  height: 548px;
+  height: 700px;
   width: 1300px;
   clear: both;
 }
 h5 {
-  font-size: 5em;
+  font-size: 6.3em;
   z-index: 1;
   background-color: white;
   vertical-align: top;
   padding-top: 89px;
   padding-bottom: 89px;
-  margin: 0;
+  margin-top: -254px;
+  font-family: Oswald;
+  margin-left: -10px;
 }
 
 /*Footer*/
+
+.imageWrapper {
+  margin-top: -167px;
+  margin-left: -10px;
+}
 
 .imageFooter {
   float: left;
