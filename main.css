@@ -14,52 +14,64 @@ ul {
   list-style: none;
   display: inline;
 }
-
 li {
   display: inline;
 }
-
 .leftBar {
   float: left;
   margin-left: 137px;
   margin-top: 3px;
 }
-
-.leftBarOne {
-  margin-left: 5px;
-  margin-top: -5px;
-  float: left;
-  font-size: 1.7em;
-  font-family: Oswald;
-
+.logo5 {
+  margin-left: -32px;
+  margin-top: 24px;
 }
-
+.leftBarOne {
+  margin-left: -9px;
+  margin-top: 45px;
+  float: left;
+  font-size: 1.6em;
+  font-family: Open Sans;
+  color: #083451;
+}
+.leftBarTwo {
+  margin-left: -3px;
+  margin-top: 45px;
+  float: left;
+  font-size: 1.6em;
+  font-family: Open Sans;
+  color: #083451;
+}
 .rightBar {
   float: right;
-  padding: 0;
+  margin-right: 81px;
+  margin-top:  42px;
+  font-size: 1.7em;
+  font-family: Oswald;
+  color: #083451;
 }
-
 .backgroundImage {
   background-image:url(header.jpg);
-  width: 1300px;
+  width: auto;
   height: 526px;
 }
-
-
 .headerText {
   font-family: Open Sans;
   font-size: 9.5em;
-  margin-left: auto;
+  margin-left: -114px;
   margin-right: auto;
   margin-bottom: 0;
-  padding-top: 115px;
+  padding-top: 157px;
   padding-bottom: 0;
-  font-weight: 300px;
+  font-weight: 600px;
+  color: #ffffff;
 }
 .headerSubText {
-  font-family: Oswald;
-  font-size: 1.7em;
-  margin: -20px;
+  font-family: Open Sans;
+  font-size: 1.52em;
+  margin-left: -132px;
+  margin-top: -13px;
+  color: #083451;
 }
 
 
@@ -67,8 +79,9 @@ li {
 .leftHeader {
   font-size: 6.3em;
   text-align: left;
-  margin-top: 49px;
+  margin-top: 99px;
   line-height: 72px;
+  margin-left: -59px;
 }
 .leftContent {
   width: 842px;
@@ -78,7 +91,6 @@ li {
   float:left;
   padding-left: 155px;
 }
-
 blockquote {
   font-family: Open Sans;
   margin-left-color: #d6d6d6;
@@ -88,14 +100,12 @@ blockquote {
   padding-left: 17px;
   border-left: 1px solid #d6d6d6;
 }
-
 .leftParagraphs {
   font-size: 1.98em;
   margin-top: -14px;
   line-height: 27px;
   padding-right: 62px;
 }
-
 .leftParagraphsB {
   font-size: 1.7em;
   margin-top: -14px;
@@ -112,44 +122,35 @@ blockquote {
   font-family: Oswald;
   font-size: 1em;
 }
-
-
 .avatar1 {
   text-align: left;
-  padding-left: 110px;
-  padding-top: 71px;
+  padding-left: 48px;
+  padding-top: 119px;
   margin-bottom: 0px;
 }
-
 .avatarText {
   font-size: 1.6em;
   margin-left: -7px;
   margin-top: -10px;
   margin-bottom:0;
   font-family: Open Sans;
-
 }
 .avatarP {
   margin-bottom: 0;
 }
-
-
 .adLink {
   margin-left: 78px;
   font-family: Open Sans;
   font-size: 1.3em;
 }
-
-
 .adlink2 {
   text-decoration: none;
-  margin-left: 57px;
+  margin-left: -4px;
   margin-top: 0;
   font-size: 1.49em;
   font-family: Oswald;
   line-height: 1;
 }
-
 .adlink3 {
   text-decoration: none;
   margin-left: 14px;
@@ -158,7 +159,6 @@ blockquote {
   font-family: Oswald;
   line-height: 1;
 }
-
 .adlink4 {
   text-decoration: none;
   margin-left: 14px;
@@ -172,14 +172,12 @@ blockquote {
 .adContainer {
   text-align: center;
 }
-
 .ad1 {
   margin-top: 49px;
   margin-bottom: 0;
   padding-right: 110px;
   padding-top: 0;
 }
-
 .SideBarHeading {
   font-size: 1.76em;
   margin-top: 44px;
@@ -187,7 +185,6 @@ blockquote {
   line-height: ;
   font-family: Oswald;
 }
-
 .SideBarArticle {
   font-size: 1.34em;
   margin-left: 11px;
@@ -225,22 +222,26 @@ h5 {
   margin-top: -167px;
   margin-left: -10px;
 }
-
 .imageFooter {
   float: left;
   width: 25%;
   height: 330px;
 }
-
 .bottomNavBar {
   width: 1300px;
   height: 101px;
   clear: both;
 }
-
 .bNavBarTIYlogo {
   display: inline;
   float: left;
   padding-left: 158px;
   padding-top: 24px;
+}
+.TIYCPYRGHT {
+  font-family: Open Sans;
+  font-size: 1.158em;
+  margin-left: 4px;
+  line-height: 91px;
+  display: inline;
 }
