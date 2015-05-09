@@ -93,6 +93,14 @@ blockquote {
   font-size: 1.98em;
   margin-top: -14px;
   line-height: 27px;
+  padding-right: 62px;
+}
+
+.leftParagraphsB {
+  font-size: 1.7em;
+  margin-top: -14px;
+  line-height: 27px;
+  padding-right: 62px;
 }
 
 /*Right Content*/
@@ -195,7 +203,7 @@ blockquote {
 
 .bottom {
   background-color: #083451;
-  height: 700px;
+  height: 392px;
   width: 1300px;
   clear: both;
 }
@@ -224,3 +232,15 @@ h5 {
   height: 330px;
 }
 
+.bottomNavBar {
+  width: 1300px;
+  height: 101px;
+  clear: both;
+}
+
+.bNavBarTIYlogo {
+  display: inline;
+  float: left;
+  padding-left: 158px;
+  padding-top: 24px;
+}
