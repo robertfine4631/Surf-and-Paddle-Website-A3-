@@ -1,7 +1,7 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 body {
   width:1300px;
@@ -16,6 +16,23 @@ ul {
 }
 li {
   display: inline;
+}
+.miniAvatar {
+  height: 100px;
+  width: 332px;
+  margin-top: -51px;
+  margin-left: -57px;
+  margin-bottom: -65px;
+}
+.avatar2 {
+  width: 23px;
+  height: auto;
+}
+.AnneMarie {
+
+}
+.Date {
+
 }
 .leftBar {
   float: left;
