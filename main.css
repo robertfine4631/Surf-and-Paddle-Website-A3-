@@ -44,12 +44,35 @@ li {
 }
 .rightBar {
   float: right;
-  margin-right: 81px;
+  margin-right: 87px;
   margin-top:  42px;
   font-size: 1.7em;
   font-family: Oswald;
   color: #083451;
 }
+.rightBarOne {
+  float: right;
+  margin-right: 15px;
+  margin-top: 42px;
+  padding-right: -3px;
+  font-size: 1.7em;
+  font-family: Oswald;
+  color: #083451;
+}
+.SearchIcon {
+  margin: 0;
+  padding: 0;
+}
+.rightBarThree {
+  float: right;
+  margin-right: 224px;
+  margin-left: -82px;
+  margin-top: 61px;
+  padding-right: -3px;
+  font-size: 1.7em;
+  font-family: Oswald;
+  color: #083451;
+  }
 .backgroundImage {
   background-image:url(header.jpg);
   width: auto;
@@ -93,10 +116,9 @@ li {
 }
 blockquote {
   font-family: Open Sans;
-  margin-left-color: #d6d6d6;
   font-size: 2.75em;
-  margin-top: 8px;
-  margin-left: 9px;
+  margin-top: 7px;
+  margin-left: -52px;
   padding-left: 17px;
   border-left: 1px solid #d6d6d6;
 }
@@ -104,13 +126,15 @@ blockquote {
   font-size: 1.98em;
   margin-top: -14px;
   line-height: 27px;
-  padding-right: 62px;
+  padding-right: 113px;
+  margin-left: -61px;
 }
 .leftParagraphsB {
   font-size: 1.7em;
   margin-top: -14px;
-  line-height: 27px;
-  padding-right: 62px;
+  line-height: 30px;
+  padding-right: 79px;
+  margin-left: -60px;
 }
 
 /*Right Content*/
@@ -171,6 +195,7 @@ blockquote {
 /*ad*/
 .adContainer {
   text-align: center;
+  margin-left: -126px;
 }
 .ad1 {
   margin-top: 49px;
@@ -180,17 +205,17 @@ blockquote {
 }
 .SideBarHeading {
   font-size: 1.76em;
-  margin-top: 44px;
-  margin-left: 13px;
+  margin-top: 43px;
+  margin-left: -48px;
   line-height: ;
   font-family: Oswald;
 }
 .SideBarArticle {
   font-size: 1.34em;
-  margin-left: 11px;
+  margin-left: -49px;
   margin-top: -30px;
   font-family: Open Sans;
-  padding-right: 126px;
+  padding-right: 179px;
   line-height: 24px;
 
 }
@@ -203,6 +228,7 @@ blockquote {
   height: 392px;
   width: 1300px;
   clear: both;
+  margin-left: -30px;
 }
 h5 {
   font-size: 6.3em;
@@ -211,9 +237,9 @@ h5 {
   vertical-align: top;
   padding-top: 89px;
   padding-bottom: 89px;
-  margin-top: -254px;
+  margin-top: -206px;
   font-family: Oswald;
-  margin-left: -10px;
+  margin-left: -15px;
 }
 
 /*Footer*/
@@ -235,7 +261,7 @@ h5 {
 .bNavBarTIYlogo {
   display: inline;
   float: left;
-  padding-left: 158px;
+  padding-left: 156px;
   padding-top: 24px;
 }
 .TIYCPYRGHT {
